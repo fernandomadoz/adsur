@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?ebb27e7bd2a875e3a7e969fad1cec2b4") format("truetype"),
+url("./flaticon.woff?ebb27e7bd2a875e3a7e969fad1cec2b4") format("woff"),
+url("./flaticon.woff2?ebb27e7bd2a875e3a7e969fad1cec2b4") format("woff2"),
+url("./flaticon.eot?ebb27e7bd2a875e3a7e969fad1cec2b4#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ebb27e7bd2a875e3a7e969fad1cec2b4#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-agriculture:before {
+    content: "\f101";
+}
+.flaticon-bolsa-de-semillas:before {
+    content: "\f102";
+}
+.flaticon-grano-de-trigo:before {
+    content: "\f103";
+}
+.flaticon-granos-de-cafe:before {
+    content: "\f104";
+}
